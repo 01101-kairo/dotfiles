@@ -1,20 +1,20 @@
 # dotfiles
 ## Minhas configurações linux
 
-uso neovim: https://github.com/01101-kairo/nvim.git $HOME/.config
+neovim: cd $HOME/.config && git clone https://github.com/01101-kairo/nvim.git 
 
-dwm: https://github.com/01101-kairo/dwm.git $HOME/.config
+dwm: cd $HOME/.config && git clone https://github.com/01101-kairo/dwm.git
 
-uso range $HOME/.config
+range: cd $HOME/.config
 
-uso xterm $HOME/
+xterm: cd $HOME/
 
-uso tmux $HOME/
+tmux: cd $HOME/
 
-uso stremio-server $HOME/
+stremio-server: cd $HOME/
 
-themes: https://github.com/EliverLara/Nordic.git $HOME/.themes
+themes: cd $HOME/.themes && git clone https://github.com/EliverLara/Nordic.git 
 
-icons: https://github.com/daniruiz/flat-remix.git  $HOME/.icons
+icons: cd $HOME/.icons && git clone https://github.com/daniruiz/flat-remix.git
 
-cursor: https://github.com/varlesh/material-cursors.git $HOME/.icons
+cursor: cd $HOME/.icons && git clone https://github.com/varlesh/material-cursors.git
