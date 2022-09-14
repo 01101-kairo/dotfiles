@@ -10,9 +10,9 @@ dwm: https://github.com/01101-kairo/dwm.git
 ```
 cd $HOME/.config && git clone https://github.com/01101-kairo/dwm.git
 ```
-range: 
+range: https://github.com/01101-kairo/ranger.git
 ```
-cd $HOME/.config
+cd $HOME/.config && git clone https://github.com/01101-kairo/ranger.git
 ```
 xterm:
 ```
