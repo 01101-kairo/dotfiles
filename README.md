@@ -17,6 +17,7 @@ uso stremio-server
 themes{
     nordic-darker-standard-buttons
 }
+
 icons{
     flat-remix-blue-dark
     material_light_cursors
