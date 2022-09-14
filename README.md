@@ -1,8 +1,9 @@
 # dotfiles
 Minhas configurações linux
-uso neovim
 
-uso dwm
+uso neovim: https://github.com/01101-kairo/nvim.git
+
+dwm: https://github.com/01101-kairo/dwm.git
 
 uso range
 
