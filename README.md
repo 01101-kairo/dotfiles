@@ -1,26 +1,20 @@
 # dotfiles
-Minhas configurações linux
+## Minhas configurações linux
 
-uso neovim: https://github.com/01101-kairo/nvim.git
+uso neovim: https://github.com/01101-kairo/nvim.git $HOME/.config
 
-dwm: https://github.com/01101-kairo/dwm.git
+dwm: https://github.com/01101-kairo/dwm.git $HOME/.config
 
-uso range
+uso range $HOME/.config
 
-uso xterm
+uso xterm $HOME/
 
-uso tmux
+uso tmux $HOME/
 
-uso vscode
+uso stremio-server $HOME/
 
-uso stremio-server
+themes: https://github.com/EliverLara/Nordic.git $HOME/.themes
 
-themes{
-    nordic-darker-standard-buttons
-}
+icons: https://github.com/daniruiz/flat-remix.git  $HOME/.icons
 
-icons{
-    flat-remix-blue-dark
-    material_light_cursors
-}
-
+cursor: https://github.com/varlesh/material-cursors.git $HOME/.icons
