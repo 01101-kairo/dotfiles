@@ -14,7 +14,7 @@ cd $HOME/
 ```
 themes: https://github.com/EliverLara/Nordic.git
 ``` 
-cd $HOME/.themes && git clone https://github.com/EliverLara/Nordic.git 
+git clone https://github.com/EliverLara/Nordic.git $HOME/.themes/Nordic
 ```
 icons: https://github.com/daniruiz/flat-remix.git
 ```
