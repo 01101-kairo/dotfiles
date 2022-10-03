@@ -1,12 +1,13 @@
 # dotfiles
 ## Minhas configurações linux
-xterm:
 ```
+git clone https://github.com/01101-kairo/dotfiles.git
+cd dotfiles
 mv .Xresources $HOME/
-```
-tmux:
-```
+mv .bashrc $HOME/
 mv .tmux.conf $HOME/
+mv .xinitrc $HOME/
+mv .zshrc $HOME/
 ```
 themes: https://github.com/EliverLara/Nordic.git
 ```
