@@ -2,11 +2,11 @@
 ## Minhas configurações linux
 xterm:
 ```
-cd $HOME/
+mv .Xresources $HOME/
 ```
 tmux: 
 ```
-cd $HOME/
+mv .tmux.conf $HOME/
 ```
 stremio-server: 
 ```
