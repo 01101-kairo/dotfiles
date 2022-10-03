@@ -1,0 +1,72 @@
+! TERM Environmental Variable
+*customization: xterm-color
+*termName: xterm-256color
+*eightBitInput: false
+! UTF8 local
+*.vt100.locale: true
+! Make 'Alt' key behave as on other terminal emulators
+*.vt100.metaSendsEscape: true
+! ^H
+*.vt100.backarrowKey: false
+! É uma borda ridicula que o XTerm traz, zerei essa porra
+*BorderWidth: 0
+! Padding em terminal é muito estilozoé muito estilozo
+*internalBorder: 5
+! stop output to terminal from jumping down to bottom of scroll again
+*scrollTtyOutput: false
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+*loginshell: true
+! double-click to select whole URLs :D
+*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+! Pro cursor nao ficar um trasinho aqui
+*pointerShape: left_ptr
+! fonte pro terminal
+*faceName: DejavuSansMono Nerd Font
+*faceSize: 12
+! meu cursor porque o XTerme traz um outro feio
+Xcursor.theme: default
+Xcurso.size: 16
+! ^?
+*.ttyModes: erase ^?
+
+! Atalhos pro terminal
+! Normal cut & paste key conventions ( ctrl-shift c/v )
+*selectToClipboard: true
+*VT100.Translations: #override \
+	Shift Ctrl<Key>C: copy-selection(CLIPBOARD) \n\
+	Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\
+	Shift Ctrl<Key>V: insert-selection(PRIMARY) \n\
+	Shift<Btn1Down>: select-start() \n\
+	Shift<Btn1Motion>: select-extend() \n\
+	Shift<Btn1Up>: select-end(CLIPBOARD) \n\
+	Ctrl <Key> minus: smaller-vt-font() \n\
+	Ctrl <Key> plus: larger-vt-font()
+
+
+*colorMode: on
+*dynamicColors: on
+*fading: 35
+*.cursorColor: #b69da1
+*.foreground:  #b69da1
+*.background:  #1A212E
+! *.background:  #1B1D1E
+! *.background:  #282A36
+! *.background:  #3b4252
+
+*.color0:  #3B4252
+*.color15: #b69da1
+*.color7:  #ECEFF4
+
+*.color6:     #27d7ff
+*.color14:    #27d7ff
+*.color4:     #88C0D0
+*.color12:    #8FBCBB
+*.color8:     #4D4D4D
+*.color1:     #e02045
+*.color9:     #f7244d
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #ffa21c
+*.color11:    #ffa21c
+*.color5:     #FF79C6
+*.color13:    #FF92D0
