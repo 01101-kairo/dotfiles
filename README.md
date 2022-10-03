@@ -8,10 +8,6 @@ tmux:
 ```
 mv .tmux.conf $HOME/
 ```
-stremio-server:
-```
-cd $HOME/
-```
 themes: https://github.com/EliverLara/Nordic.git
 ```
 git clone https://github.com/EliverLara/Nordic.git $HOME/.themes/Nordic
